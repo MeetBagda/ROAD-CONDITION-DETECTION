@@ -1,0 +1,21 @@
+# Configuration settings for YOLO ML Project
+
+dataset:
+  train: "path/to/train/dataset"
+  validation: "path/to/validation/dataset"
+  test: "path/to/test/dataset"
+
+model:
+  input_size: [416, 416]
+  num_classes: 80
+  anchors:
+    - [10, 13, 16, 30, 33, 23]
+    - [30, 61, 62, 45, 59, 119]
+    - [116, 90, 156, 198, 373, 326]
+
+training:
+  batch_size: 16
+  learning_rate: 0.001
+  epochs: 50
+  save_model_path: "path/to/save/model"
+  log_dir: "path/to/logs"
