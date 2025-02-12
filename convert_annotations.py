@@ -40,11 +40,13 @@ def convert_annotation(json_file, output_dir, class_map):
 if __name__ == "__main__":
     # Define your class mapping here.  IMPORTANT: The IDs MUST start from 0.
     class_map = {
-        'longitudinal crack': 0,
-        'transverse crack': 1,
-        'alligator crack': 2,
-        'pothole': 3,
-        'other corruption': 4,
+        'alligator crack': 0,
+        'block crack': 1,
+        'longitudinal crack': 2,
+        'other corruption': 3,
+        'pothole': 4,
+        'repair': 5,
+        'transverse crack': 6,
     }
 
     dataset_dir = "dataset" # Update with the root directory
