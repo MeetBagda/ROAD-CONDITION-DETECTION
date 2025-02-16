@@ -1,0 +1,6 @@
+
+path: ./
+train: yolo_dataset/train/images
+val: yolo_dataset/val/images
+nc: 7
+names: ['D00', 'D10', 'D20', 'D30', 'D40', 'D50', 'D60']
