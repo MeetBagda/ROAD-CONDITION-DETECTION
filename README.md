@@ -4,6 +4,7 @@
 
 *   [Project Overview](#project-overview)
 *   [Key Features](#key-features)
+*   [Example Predictions](#example-predictions)
 *   [Getting Started](#getting-started)
     *   [Prerequisites](#prerequisites)
 *   [Future Work](#future-work)
@@ -35,6 +36,35 @@ This project aims to provide an accurate, efficient, and scalable solution for r
 *   **PyTorch Implementation:** Leverages the flexibility and power of the PyTorch deep learning framework.
 *   **Customizable:** Easy to adapt to different datasets and road conditions.
 *   **Successful Detections:** The model demonstrates robust object detection capabilities across various road conditions and environments. See the example predictions below!
+
+## Example Predictions
+
+The following images showcase the model's ability to accurately identify and classify road damage in various scenarios:
+
+![Prediction 1](https://github.com/user-attachments/assets/50e70a86-3583-4d31-a1aa-3402c56592d3)
+*The model accurately detects transverse cracks and other road defects.*
+
+![Prediction 2](https://github.com/user-attachments/assets/7029928f-bd89-40ef-930b-daba4e76272d)
+
+*Detection of alligator cracking in challenging lighting conditions.*
+
+![Prediction 3](https://github.com/user-attachments/assets/353155ad-5215-431d-b392-a6a9bc941f40)
+
+*Robust pothole detection, even with partial visibility.*
+
+![Prediction 4](https://github.com/user-attachments/assets/c8ee9e5c-e1c3-4c01-a8a3-52f0257f5717)
+
+*Detection of longitudinal crack.*
+
+![Prediction 5](https://github.com/user-attachments/assets/c36bae4f-593f-4c85-8c8b-a4db75d9e78c)
+
+*Another Detection of longitudinal crack.*
+
+![Prediction 6](https://github.com/user-attachments/assets/2a8195e5-3d88-4cd0-b049-2fdd6cf81d34)
+
+*Example of repair mark detection.*
+
+_Note: These images are for illustrative purposes and may not represent the model's performance on all datasets. The model is continually being improved._
 
 ## Getting Started
 
